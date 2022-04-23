@@ -2,6 +2,8 @@
  <template>
   <div>
       
+                    <h1 class="bg-indigo-100 text-xl"> BALISE B - 5 </h1>
+
    <!-- This shows a success message if the form was submitted correctly. -->
     <div class="relative rounded-md shadow-sm">
         <form @submit.prevent="createPost">
@@ -43,8 +45,8 @@ export default {
         return {
             formData:{
                 team: '',
-                parcours: '',
-                balise: '1'
+                parcours: 'B',
+                balise: '5'
             }
         }
     },
