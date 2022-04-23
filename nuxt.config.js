@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+
   head: {
     title: 'check',
     htmlAttrs: {
@@ -19,6 +20,9 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
+
+     target: 'static', // default is 'server',
+
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
