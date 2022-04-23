@@ -52,7 +52,7 @@ export default {
     methods: {
         createPost(){
             axios.post('https://directus.rubidiumweb.eu/items/co', this.formData)
-            //.then(response => alert('OK ! Va pour la suivante !'))
+            .then(response => alert('OK ! Va pour la suivante !'))
             .then(response => console.log(response))
             .catch(error => alert('BUG ! Recommence '))
         }
