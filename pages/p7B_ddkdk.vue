@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import CheckpointA from '~/components/Checkpoint7B.vue'
+import CheckpointA from '~/components/CheckpointB7.vue'
 export default {
   components: { CheckpointA },
-  name: 'IndexPage'
+  name: 'IndexPage' 
 }
 </script>
