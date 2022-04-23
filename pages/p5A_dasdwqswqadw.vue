@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Checkpoint from '~/components/Checkpoint5A.vue'
+import Checkpoint from '~/components/CheckpointA5.vue'
 export default {
   components: { Checkpoint },
   name: 'IndexPage'
