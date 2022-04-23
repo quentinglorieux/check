@@ -3,7 +3,8 @@
 </template>
 
 <script>
-import CheckpointA from '~/components/CheckpointA.vue'
+import CheckpointA from '~/components/CheckpointTest.vue'
+
 export default {
   components: { CheckpointA },
   name: 'IndexPage'
